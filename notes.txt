@@ -1,0 +1,9 @@
+git commands:
+
+git init: initialize
+git status: untracked files
+git add ./git add <files>: include all(.) the untracked files
+git commit -m 'message': snap the added files
+git rm --cached -f <file_name>: excludes the included untracked files
+git log: to see the history
+git reset <latest_commit_hash>: unstages all the logs afte the <latest_commit_hash>
