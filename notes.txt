@@ -10,3 +10,9 @@ git reset <latest_commit_hash>: unstages all the logs afte the <latest_commit_ha
 
 git stash: to keep the files for commit
 git stash pop: bring up for commit whatever was stashed earlier.
+git stash clear: clears up the stash
+
+github:?????????????????
+git remote add origin <git_address_url>
+git push origin master
+
