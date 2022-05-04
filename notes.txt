@@ -1,5 +1,6 @@
 git commands:
 
+------ BASIC COMMANDS ------
 git init: initialize
 git status: untracked files
 git add ./git add <files>: include all(.) the untracked files
@@ -8,11 +9,17 @@ git rm --cached -f <file_name>: excludes the included untracked files
 git log: to see the history
 git reset <latest_commit_hash>: unstages all the logs afte the <latest_commit_hash>
 
+----- STASHING ------
 git stash: to keep the files for commit
 git stash pop: bring up for commit whatever was stashed earlier.
 git stash clear: clears up the stash
 
-github:?????????????????
+------ REMOTE ADDING AND PUSHING ------
 git remote add origin <git_address_url>
-git push origin master
+git branch -M main
+git push -u origin master
+
+------ REMOTE CHEK AND REMOVE ------
+git remote -v: prints all the remote added
+git remote remove origin: removes all the remote added
 
